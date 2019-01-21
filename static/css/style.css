@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0C1624;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+a:hover {
+    color: #18B56A;
+}
+
+h3 {
+    color: #18B56A;
+    text-align: left;
+}
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+#navigation {
+    width: 100%;
+    line-height: 60px;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    font-weight: bold;
+    transition: all 1s ease 0s;
+}
+
+.nav_default {
+    color: #FFF;
+    background: none;
+}
+
+.nav_scrolled {
+    background-color: #fff;
+    color: #2c3e50;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav_scrolled>.nav_right>div>a {
+    color: #2c3e50;
+}
+
+.nav_scrolled>.nav_right>div>a:hover {
+    color: #18B56A;
+}
+
+#navigation>.nav_left {
+    text-align: left;
+    margin-left: 15%;
+}
+
+#navigation>.nav_right {
+    width: 50%;
+    text-align: right;
+    position: absolute;
+    right: 15%;
+    overflow: hidden;
+}
+
+#navigation>.nav_right>div {
+    display: inline-block;
+    padding-left: 10%;
+}
+
+#content {
+    /*padding: 10% 15%;*/
+}
+
+#abstract {
+    padding: 10% 15% 5% 15%;
+}
+
+#abstract>img#avatar {
+    float: left;
+    margin-right: 5%;
+    max-width: 25%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#abstract>#quote {
+    text-align: left;
+    color: #fff;
+    font-size: 4em;
+}
+
+#abstract>#quote>#major {
+    font-size: 0.5em;
+}
+
+#abstract>#quote>p>span#ab_name {
+    color: #18B56A;
+}
+
+.details,
+#foot {
+    background-color: #fff;
+    padding: 5% 15%;
+}
+
+#introduce {
+    text-align: left;
+    display: flex;
+}
+
+#introduce>.intro_left {
+    width: 300px;
+    flex: 0.2;
+    padding-right: 10px;
+}
+
+#introduce>.intro_right {
+    flex: 0.8;
+}
+
+#project>#p1,
+#p2 {
+    width: 49%;
+    height: 200px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    box-shadow: #bbb 0px 0px 10px;
+}
+
+.pro_name {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 80px;
+}
+
+#p1 {
+    background-image: url('../img/RR.93d725c.jpeg');
+}
+
+#p2 {
+    background-image: url('../img/Treadmill.5944c1a.png');
+}
+
+#w1,
+#w2,
+#e1,
+#e2 {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.exp_right {
+    width: 90%;
+}
+
+#foot {
+    text-align: center;
+}
+
+#foot>a {
+    padding: 0 1em;
+}
