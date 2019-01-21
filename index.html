@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=0"><title>Portfolio of YeTing Bao</title><link href=./static/css/app.5e751903c652a27e8652fbba1c7ccf77.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.84a29de060ff5dda7aeb.js></script><script type=text/javascript src=./static/js/vendor.ae8b8601a56cec3b4f82.js></script><script type=text/javascript src=./static/js/app.e19c8703259fcf2da839.js></script></body></html><script>var bg_small = new Image();
+	bg_small.src = './static/bg_01_small.png';
+	bg_small.onload = () =>{
+		console.log("Initial background loaded.");
+		this.document.body.style.backgroundImage = "url("+bg_small.src+")";
+	}
+
+	var bg_big = new Image();
+	bg_big.src = './static/bg_01.png';
+	bg_big.onload = () => { // 图片加载成功后更换背景地址
+	  console.log("High quality background loaded.");
+	  // setTimeout("",5000)
+	  this.document.body.style.backgroundImage = "url("+bg_big.src+")";
+	  // console.log(this.document.body.style)
+	}</script>
