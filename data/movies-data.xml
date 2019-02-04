@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<movies>
+	<movie rating='7'>
+		<title>Glass</title>
+		<actor>Bruce Willis</actor>
+		<actor>James McAvoy</actor>
+		<actor>Samuel L. Jackson</actor>
+	</movie>
+	<movie rating='8'>
+		<title>The Upside</title>
+		<actor>Bryan Cranston</actor>
+		<actor>Kevin Hart</actor>
+		<actor>Nicole Kidman</actor>
+	</movie>
+	<movie rating='7'>
+		<title>Aquaman</title>
+		<actor>Jason Momoa</actor>
+		<actor>Amber Heard</actor>
+		<actor>Nicole Kidman</actor>
+	</movie>
+	<movie rating='7'>
+		<title>The Kid Who Would Be King</title>
+		<actor>Louis Ashbourne Serkis</actor>
+		
+	</movie>
+	<movie rating='9'>
+		<title>Spider-Man: Into The Spider-Verse</title>
+		<actor>Shameik Moore</actor>
+		<actor>Jake Johnson (XVI)</actor>
+		<actor>Hailee Steinfeld</actor>
+	</movie>
+</movies>

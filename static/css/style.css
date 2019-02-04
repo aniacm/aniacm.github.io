@@ -21,9 +21,22 @@ a:hover {
     color: #18B56A;
 }
 
+h1{
+    padding-top: 20px;
+}
+
 h3 {
     color: #18B56A;
     text-align: left;
+    padding-top: 10px;
+}
+
+button{
+    width: 10em;
+    height: 3em;
+    border-radius: 0.5em;
+    cursor: pointer;
+
 }
 
 #app {
@@ -31,6 +44,7 @@ h3 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
+
 }
 
 #navigation {
@@ -62,6 +76,8 @@ h3 {
     color: #18B56A;
 }
 
+
+
 #navigation>.nav_left {
     text-align: left;
     margin-left: 15%;
@@ -80,6 +96,18 @@ h3 {
     padding-left: 10%;
 }
 
+#navigation>.wide{
+    display: inline-block;
+}
+
+#navigation>.small{
+    display: none;
+}
+
+#navi{
+    height: 60px;
+}
+
 #content {
     /*padding: 10% 15%;*/
 }
@@ -88,10 +116,10 @@ h3 {
     padding: 10% 15% 5% 15%;
 }
 
-#abstract>img#avatar {
+img#avatar {
     float: left;
     margin-right: 5%;
-    max-width: 25%;
+    max-width: 250px;
     height: auto;
     border-radius: 50%;
 }
@@ -113,6 +141,18 @@ h3 {
 .details,
 #foot {
     background-color: #fff;
+    /*padding: 15% 15% 0% 15%;*/
+}
+
+.details{
+    padding: 60px 15% 0% 15%;
+}
+
+#experience{
+    padding: 60px 15% 5% 15%;
+}
+
+#foot{
     padding: 5% 15%;
 }
 
@@ -131,14 +171,21 @@ h3 {
     flex: 0.8;
 }
 
-#project>#p1,
-#p2 {
-    width: 49%;
+#project>div{
+    width: 47%;
     height: 200px;
     display: inline-block;
-    color: #fff;
+    color: #000;
     text-align: center;
     box-shadow: #bbb 0px 0px 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    /*transition: all 1s ease 0s;*/
+}
+
+#project>div:hover{
+    color: #fff;
+    opacity: 1;
 }
 
 .pro_name {
@@ -147,13 +194,45 @@ h3 {
     padding-top: 80px;
 }
 
-#p1 {
-    background-image: url('../img/RR.93d725c.jpeg');
+.project_abstract{
+    background-color: #18B56A;
 }
 
-#p2 {
+#ux01 {
+    background-image: url('../img/RR.93d725c.jpeg');
+    
+}
+
+#ux02 {
     background-image: url('../img/Treadmill.5944c1a.png');
 }
+
+.project_details{
+    display: none;
+}
+
+/*Ajax start*/
+#ajax{
+    padding-bottom: 10%;
+}
+
+#ajax>button#clear_alldata{
+    color: #fff;
+    background-color: red;
+    border: 0px;
+    font-weight: bold;
+}
+
+/*Ajax end*/
+
+
+/*Treadmill start*/
+#treadmill_photo, #per1, #per2, #per3, #per4, #pro1, #pro2, #des1, #des2{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Treadmill end*/
 
 #w1,
 #w2,
@@ -174,3 +253,79 @@ h3 {
 #foot>a {
     padding: 0 1em;
 }
+
+#foot>#icons_credit{
+    font-size: 0.5em;
+}
+#foot>#icons_credit>a{
+    color: #18B56A;
+}
+
+@media screen and (max-width: 768px) {  
+
+/*#abstract {
+    padding: 10% 15% 5% 15%;
+}*/
+
+#abstract>#quote {
+    font-size: 3em;
+}
+
+#abstract>#quote>#major {
+    font-size: 0.4em;
+}
+
+img#avatar{
+    max-width: 50%;
+}
+
+#content{
+    /*padding-top: 5%;*/
+}
+
+
+#navigation>.wide{
+    display: none;
+}
+
+#navigation>.small{
+    display: inline-block;
+}
+
+.nav_scrolled>.nav_right>div>a>svg>path {
+    fill: #2c3e50;
+}
+
+#about_icon:hover, #project_icon:hover, #experience_icon:hover{
+    fill: #18B56A;
+}
+
+#project>div{
+    opacity: 1;
+    color: #fff;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 425px){
+
+#content{
+    /*padding-top: 10%;*/
+}
+
+#abstract {
+    padding: 20% 15% 5% 15%;
+}
+
+#project>div{
+    width: 100%;
+    display: block;
+    opacity: 1;
+    color: #fff;
+}
+
+}
+
