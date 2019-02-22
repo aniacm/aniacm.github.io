@@ -25,7 +25,7 @@
             <div class="nav_right wide">
                 <div><a href="#about">ABOUT</a></div>
                 <div><a href="#project">PROJECT</a></div>
-                <div><a href="#experience">EXPERIENCE</a></div>
+                <!-- <div><a href="#experience">EXPERIENCE</a></div> -->
             </div>
 
             <div class="nav_right small">
@@ -40,11 +40,11 @@
                             <path id="project_icon" d="M471.75,255H433.5V153c0-28.05-22.95-51-51-51h-102V63.75C280.5,28.05,252.45,0,216.75,0S153,28.05,153,63.75V102H51    c-28.05,0-51,22.95-51,51v96.9h38.25c38.25,0,68.85,30.6,68.85,68.85S76.5,387.6,38.25,387.6H0v96.9c0,28.05,22.95,51,51,51h96.9    v-38.25c0-38.25,30.6-68.85,68.85-68.85s68.85,30.6,68.85,68.85v38.25h96.9c28.05,0,51-22.95,51-51v-102h38.25    c35.7,0,63.75-28.05,63.75-63.75S507.45,255,471.75,255z" fill="#FFFFFF"/>
                     </svg>
                 </a></div>
-                <div><a href="#experience">
+<!--                 <div><a href="#experience">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_2" x="0px" y="0px" width="1em" height="1em" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
                             <path id='experience_icon' d="M382.5,51V0h-255v51H51v459h153v-51h102v51h153V51H382.5z M229.5,382.5h-51v-51h51V382.5z M229.5,280.5h-51v-51h51V280.5z     M229.5,178.5h-51v-51h51V178.5z M331.5,382.5h-51v-51h51V382.5z M331.5,280.5h-51v-51h51V280.5z M331.5,178.5h-51v-51h51V178.5z" fill="#FFFFFF"/>
                     </svg>
-                </a></div>
+                </a></div> -->
             </div>
         </div>
         
@@ -53,7 +53,7 @@
         <div id="content">
             <div id="about">
                 <div id='abstract'>
-                    <div><img id="avatar" src="./static/img/avatar.png" alt="avatar"></div>
+                    <div><img id="avatar" src="./static/img/avatar0.jpg" alt="avatar"></div>
                     <div id="quote">“Hi,
                         <p>I am <span id='ab_name'>Yeting Bao</span>.</p>
                         <p id="major">First-year graduate student in HCI program.</p>”</div>
@@ -66,13 +66,21 @@
                 </div>
             </div>
             <div id="project" class="details">
-                <h3>Homeworks</h3>
+                <h3>Homework</h3>
                 <div id="hw01" class="project_abstract" onclick="Show_Details(this,1)">
                     <p class="pro_name">Ajax</p>
                     <p class="pro_describe">Request XML data</p>
                 </div>
+                <div id="hw02" class="project_abstract" onclick="window.open('./event-jaunt-start.html');">
+                    <p class="pro_name">API</p>
+                    <p class="pro_describe">Web Services</p>
+                </div>
                 <h3>In-class Exercises</h3>
                 <h3>Web Projects</h3>
+                <div id="we01" class="project_abstract" onclick="window.open('project1/index.html');">
+                    <p class="pro_name">WhatCanICook</p>
+                    <p class="pro_describe">Individual Project 1 - Web Service Mashup</p>
+                </div>
                 <h3>UX Projects</h3>
                 <div id="ux01" class="project_abstract" onclick="window.open('https://sites.google.com/g.rit.edu/hci-ritfoodrecovery','Recover_Rochester');">
                     <p class="pro_name">RecoverRochester</p>
@@ -83,7 +91,7 @@
                     <p class="pro_describe">Interactive screen</p>
                 </div>
             </div>
-            <div id="experience" class="details">
+<!--             <div id="experience" class="details">
                 <h3>Education Experience</h3>
                 <div id="e2">
                     <div class="exp_left">08/2018 - 05/2020</div>
@@ -102,7 +110,7 @@
                     <div class="exp_left">03/2016-10/2016</div>
                     <div class="exp_right">Customer Service Engineer Assistant, DELL EMC, Shanghai, China</div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div id="ajax" class="details project_details">
@@ -128,6 +136,10 @@
             <div id="movies" class="data_requested"></div>
 
         </div>
+
+        <div id="api" class="details project_details"></div>
+
+        <div id="whaticancook" class="details project_details"></div>
         
         <div id="rocover_rochester" class="details project_details"></div>
 

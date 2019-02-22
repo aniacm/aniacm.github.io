@@ -198,6 +198,14 @@ img#avatar {
     background-color: #18B56A;
 }
 
+#hw01{
+
+}
+
+#hw02{
+    background-color: #FEB647;
+}
+
 #ux01 {
     background-image: url('../img/RR.93d725c.jpeg');
     
@@ -205,6 +213,10 @@ img#avatar {
 
 #ux02 {
     background-image: url('../img/Treadmill.5944c1a.png');
+}
+
+#we01{
+    background-color: #FD7D60;
 }
 
 .project_details{
