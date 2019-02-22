@@ -77,7 +77,7 @@
                 </div>
                 <h3>In-class Exercises</h3>
                 <h3>Web Projects</h3>
-                <div id="we01" class="project_abstract" onclick="window.open('project1/index.html');">
+                <div id="we01" class="project_abstract" onclick="window.open('project1/desgin-document.html');">
                     <p class="pro_name">WhatCanICook</p>
                     <p class="pro_describe">Individual Project 1 - Web Service Mashup</p>
                 </div>
